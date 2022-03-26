@@ -1,0 +1,9 @@
+memory,steps,verbose,filter,NN,filter__model__bootstrap,filter__model__ccp_alpha,filter__model__class_weight,filter__model__criterion,filter__model__max_depth,filter__model__max_features,filter__model__max_leaf_nodes,filter__model__max_samples,filter__model__min_impurity_decrease,filter__model__min_samples_leaf,filter__model__min_samples_split,filter__model__min_weight_fraction_leaf,filter__model__n_estimators,filter__model__n_jobs,filter__model__oob_score,filter__model__random_state,filter__model__verbose,filter__model__warm_start,filter__model,filter__n,NN__activation,NN__alpha,NN__batch_size,NN__beta_1,NN__beta_2,NN__early_stopping,NN__epsilon,NN__hidden_layer_sizes,NN__learning_rate,NN__learning_rate_init,NN__max_fun,NN__max_iter,NN__momentum,NN__n_iter_no_change,NN__nesterovs_momentum,NN__power_t,NN__random_state,NN__shuffle,NN__solver,NN__tol,NN__validation_fraction,NN__verbose,NN__warm_start
+,"[('filter', ImportanceSelect(model=RandomForestClassifier(class_weight='balanced', n_jobs=1,
+                                              random_state=1714731199),
+                 n=2)), ('NN', MLPClassifier(alpha=0.1, early_stopping=True, hidden_layer_sizes=(32, 32),
+              max_iter=2000, random_state=1714731199))]",False,"ImportanceSelect(model=RandomForestClassifier(class_weight='balanced', n_jobs=1,
+                                              random_state=1714731199),
+                 n=2)","MLPClassifier(alpha=0.1, early_stopping=True, hidden_layer_sizes=(32, 32),
+              max_iter=2000, random_state=1714731199)",True,0.0,balanced,gini,,auto,,,0.0,1,2,0.0,100,1,False,1714731199,0,False,"RandomForestClassifier(class_weight='balanced', n_jobs=1,
+                       random_state=1714731199)",2,relu,0.1,auto,0.9,0.999,True,1e-08,"(32, 32)",constant,0.001,15000,2000,0.9,10,True,0.5,1714731199,True,adam,0.0001,0.1,False,False
