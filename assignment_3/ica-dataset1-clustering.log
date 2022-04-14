@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\zahid\Documents\Machine Learning\Assignment 3\run_experiment.py", line 3, in <module>
+    import logging
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3312.0_x64__qbz5n2kfra8p0\lib\logging\__init__.py", line 28, in <module>
+    from string import Template
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 958, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1040, in get_data
+KeyboardInterrupt
+^C
